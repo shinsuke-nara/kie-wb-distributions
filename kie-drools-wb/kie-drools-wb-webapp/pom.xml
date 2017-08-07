@@ -34,7 +34,8 @@
 
   <properties>
     <errai.version>${version.org.jboss.errai}</errai.version>
-    <as.version>8.1.0.Final</as.version>
+    <!-- To use Wildfly 10.0.0.Final, Change version from 8.1.0.Final to 10.0.0.Final -->
+    <as.version>10.0.0.Final</as.version>
     <!-- Add the absolute path for $JBOSS_HOME below to manage another instance -->
     <errai.jboss.home>${project.build.directory}/wildfly-${as.version}</errai.jboss.home>
     <gwt.compiler.localWorkers>1</gwt.compiler.localWorkers>
@@ -1313,7 +1314,8 @@
     <!-- UF Security management provider for Wildfly / EAP. -->
     <dependency>
       <groupId>org.uberfire</groupId>
-      <artifactId>uberfire-security-management-wildfly8</artifactId>
+    <!-- To use Wildfly 10.0.0.Final, Change version from 8 to 10 -->
+      <artifactId>uberfire-security-management-wildfly10</artifactId>
     </dependency>
 
     <!-- test -->
