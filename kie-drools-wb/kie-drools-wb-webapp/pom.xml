@@ -26,7 +26,7 @@
     <version>6.5.0.Final</version>
   </parent>
 
-  <artifactId>kie-drools-wb-webapp</artifactId>
+  <artifactId>drools-wb</artifactId>
   <packaging>war</packaging>
 
   <name>KIE Drools Workbench - Webapp</name>
